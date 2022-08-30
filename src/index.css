@@ -5,12 +5,26 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: darkgray;
+  background-color: #dee9e7;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dark-mode {
+  background-color: black;
+}
+
+.dark-mode h1 {
+  color: white;
 }
 
 .container {
@@ -19,6 +33,7 @@ code {
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
+  min-height: 100vh;
 }
 
 .notes-list {
