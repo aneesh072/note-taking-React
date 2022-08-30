@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const AddNote = ({ handleAddNote }) => {
+const AddNote = ({ handleAddNote,  }) => {
   const [noteText, setNoteText] = useState('');
   const characterLimit = 200;
 
