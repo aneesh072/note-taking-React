@@ -68,3 +68,8 @@ textarea:focus {
   align-items: center;
   justify-content: space-between;
 }
+
+.delete-icon:hover {
+  color: red;
+
+}
